@@ -4,7 +4,7 @@ Turn unrounded course marks into rounded ones, not awarding grades one less than
 
 ## Installation
 
-You can install the released version of make.legal.grades from [CRAN](https://CRAN.R-project.org) with:
+You can install the released version of make.legal.grades from Github with:
 
 ``` r
 devtools::install_github("nxskok/make.legal.grades")

@@ -1,16 +1,16 @@
 Package: make.legal.grades
-Title: What the Package Does (One Line, Title Case)
+Title: Adjust list of class grades to not award one less than a letter-grade boundary
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Ken",
            family = "Butler",
            role = c("aut", "cre"),
            email = "butler@utsc.utoronto.ca")
-Description: What the package does (one paragraph).
+Description: Adjust list of class grades to not award one less than a letter-grade boundary. Forbidden grades are adjustable, as well as a "fudge factor" that controls how things are rounded.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
-URL: https://github.com/nxskok/make.legal.grades
-BugReports: https://github.com/nxskok/make.legal.grades/issues
+Imports: 
+    magrittr
