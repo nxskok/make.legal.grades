@@ -10,9 +10,11 @@ You can install the released version of make.legal.grades from Github with:
 devtools::install_github("nxskok/make.legal.grades")
 ```
 
-## Example
+## Examples
 
 ``` r
-
+makelegal(c(79.6, 79.4))
+makelegal(79.4, fudge=0.5)
+makelegal(c(81.4, 79.4), nogood=81)
 ```
 

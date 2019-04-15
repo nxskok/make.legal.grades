@@ -12,6 +12,11 @@
 #' @param nogood vector of grades not to be awarded
 #' @param fudge fudge factor (see Details)
 #'
+#' @examples
+#' makelegal(c(79.6, 79.4))
+#' makelegal(79.4, fudge=0.5)
+#' makelegal(c(81.4, 79.4), nogood=81)
+#'
 #' @export
 makelegal=function(x, nogood=c(89, 84, 79, 76, 72, 69, 66, 62, 59, 56, 52, 49), fudge=0) {
   z=round(x+fudge)
