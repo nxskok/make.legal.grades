@@ -18,13 +18,14 @@ devtools::install_github("nxskok/make.legal.grades")
 ## Example
 
 The University of Toronto makes us submit number (percent) grades for
-our students, which for GPA purposes are then converted into letter
-grades. Students don’t like getting a number grade one below a
-letter-grade boundary. Giving one is a sure-fire way to receive emails
-from students asking to be rounded up (to which the answer is “no”).
+our students, which for GPA purposes are then converted into [letter
+grades](https://www.utsc.utoronto.ca/registrar/u-t-grading-scheme).
+Students don’t like getting a number grade one below a letter-grade
+boundary. Giving one is a sure-fire way to receive emails from students
+asking to be rounded up (to which the answer is “no”).
 
-The default `nogood` has 79 as one of the grades not to award, since 80
-is an A- here. This is what I do:
+The default `nogood` (see below) has 79 as one of the grades not to
+award, since 80 is an A- here. This is what I do:
 
 ``` r
 library(make.legal.grades)
@@ -64,3 +65,6 @@ makelegal(c(79.4, 79.49))
 makelegal(c(79.4, 79.49), fudge=0.02)
 #> [1] 78 80
 ```
+
+The reason for writing this package is that I always had to find last
+semester’s R code and copy the function. No more\!
