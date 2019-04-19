@@ -68,3 +68,14 @@ makelegal(c(79.4, 79.49), fudge=0.02)
 
 The reason for writing this package is that I always had to find last
 semester’s R code and copy the function. No more\!
+
+## Other possibilities
+
+One of my colleagues sets harder exams, and then rounds each student
+(except, presumably, for the ones who fail) up to the next letter-grade
+boundary. That would require another function, which I guess I now have
+to write.
+
+Also, I would like to expose the list of forbidden grades, or perhaps
+the lowest number grade to achieve a certain letter grade, in the
+package also. I have to remember how to do that.
