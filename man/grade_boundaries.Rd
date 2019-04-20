@@ -9,7 +9,7 @@
 \describe{
 \item{letter_grade}{text}
 \item{number_grade}{Minimum number grade required to obtain that letter grade, numeric}
-\item{grade_points}{Contribution to grade point average}
+\item{grade_points}{Contribution to grade point average, numeric}
 }}
 \source{
 \url{https://www.utsc.utoronto.ca/registrar/u-t-grading-scheme}

@@ -18,7 +18,7 @@
 #' makelegal(c(81.4, 79.4), nogood=81)
 #'
 #' @export
-makelegal=function(x, nogood=c(89, 84, 79, 76, 72, 69, 66, 62, 59, 56, 52, 49), fudge=0) {
+makelegal=function(x, nogood=make.legal.grades::grade_boundaries$number_grade-1, fudge=0) {
   z=round(x+fudge)
   ifelse(z %in% nogood, z-1, z)
 }
