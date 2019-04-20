@@ -1,7 +1,7 @@
 Package: make.legal.grades
 Title: Adjust list of class grades to not award one less than a letter-grade boundary
 Version: 0.0.0.9000
-Authors@R: 
+Authors@R:
     person(given = "Ken",
            family = "Butler",
            role = c("aut", "cre"),
@@ -12,7 +12,11 @@ Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
-Imports: 
-    magrittr
-Suggests: 
+Imports:
+    magrittr,
+    tibble,
+    readr
+Suggests:
     testthat
+Depends:
+    R (>= 2.10)

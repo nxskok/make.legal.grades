@@ -4,3 +4,4 @@
 ^LICENSE\.md$
 ^make\.legal\.Rproj$
 ^\.Rproj\.user$
+^data-raw$
