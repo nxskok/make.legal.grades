@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Function reference • make.legal.grades</title>
+<title>University of Toronto letter grades and minimum number grades to achieve them — grade_boundaries • make.legal.grades</title>
 
 <!-- jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -30,7 +30,10 @@
 
 
 
-<meta property="og:title" content="Function reference" />
+<meta property="og:title" content="University of Toronto letter grades and minimum number grades to achieve them — grade_boundaries" />
+
+<meta property="og:description" content="University of Toronto letter grades and minimum number grades to achieve them" />
+<meta name="twitter:card" content="summary" />
 
 
 
@@ -47,7 +50,7 @@
   </head>
 
   <body>
-    <div class="container template-reference-index">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -89,48 +92,45 @@
       </header>
 
 <div class="row">
-  <div class="contents col-md-9">
+  <div class="col-md-9 contents">
     <div class="page-header">
-      <h1>Reference</h1>
+    <h1>University of Toronto letter grades and minimum number grades to achieve them</h1>
+    
+    <div class="hidden name"><code>grade_boundaries.Rd</code></div>
     </div>
 
-    <table class="ref-index">
+    <div class="ref-description">
+    
+    <p>University of Toronto letter grades and minimum number grades to achieve them</p>
+    
+    </div>
 
-    <colgroup>
-      
-      <col class="alias" />
-      <col class="title" />
-    </colgroup>
+    <pre class="usage"><span class='no'>grade_boundaries</span></pre>
+        
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <tbody>
-      <tr>
-        <th colspan="2">
-          <h2 id="section-all-functions" class="hasAnchor"><a href="#section-all-functions" class="anchor"></a>All functions</h2>
-          <p class="section-desc"></p>
-        </th>
-      </tr>
-      <tr>
-        
-        <td>
-          <p><code><a href="grade_boundaries.html">grade_boundaries</a></code> </p>
-        </td>
-        <td><p>University of Toronto letter grades and minimum number grades to achieve them</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="makelegal.html">makelegal()</a></code> </p>
-        </td>
-        <td><p>adjust grades to be "legal", not one short of a letter grade boundary</p></td>
-      </tr>
-    </tbody>
-    </table>
+    <p>A data frame with 13 rows and 3 columns</p>
+<dl class='dl-horizontal'>
+<dt>letter_grade</dt><dd><p>text</p></dd>
+<dt>number_grade</dt><dd><p>Minimum number grade required to obtain that letter grade, numeric</p></dd>
+<dt>grade_points</dt><dd><p>Contribution to grade point average</p></dd>
+</dl>
+    
+    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
+
+    <p><a href='https://www.utsc.utoronto.ca/registrar/u-t-grading-scheme'>https://www.utsc.utoronto.ca/registrar/u-t-grading-scheme</a></p>
+    
+
   </div>
-
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
     <h2>Contents</h2>
     <ul class="nav nav-pills nav-stacked">
-      <li><a href="#section-all-functions">All functions</a></li>
-    </ul>
+      
+      <li><a href="#format">Format</a></li>
+
+      <li><a href="#source">Source</a></li>
+          </ul>
+
   </div>
 </div>
 
