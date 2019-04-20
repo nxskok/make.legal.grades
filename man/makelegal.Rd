@@ -15,7 +15,7 @@ makelegal(x, nogood = make.legal.grades::grade_boundaries$number_grade -
 \item{fudge}{fudge factor (see Details)}
 }
 \description{
-Convert possibly decimal grades to integers not in a forbidden set, which can be specied by the user, with optional "fudge factor" (see Details)
+Convert possibly decimal grades to integers not in a forbidden set, which can be specified by the user, with optional "fudge factor" (see Details)
 }
 \details{
 Default \code{nogood} are grades one below a GPA boundary at University of Toronto. My standard practice is to say that anything

@@ -32,7 +32,7 @@
 
 <meta property="og:title" content="adjust grades to be "legal", not one short of a letter grade boundary — makelegal" />
 
-<meta property="og:description" content="Convert possibly decimal grades to integers not in a forbidden set, which can be specied by the user, with optional &quot;fudge factor&quot; (see Details)" />
+<meta property="og:description" content="Convert possibly decimal grades to integers not in a forbidden set, which can be specified by the user, with optional &quot;fudge factor&quot; (see Details)" />
 <meta name="twitter:card" content="summary" />
 
 
@@ -101,12 +101,12 @@
 
     <div class="ref-description">
     
-    <p>Convert possibly decimal grades to integers not in a forbidden set, which can be specied by the user, with optional "fudge factor" (see Details)</p>
+    <p>Convert possibly decimal grades to integers not in a forbidden set, which can be specified by the user, with optional "fudge factor" (see Details)</p>
     
     </div>
 
-    <pre class="usage"><span class='fu'>makelegal</span>(<span class='no'>x</span>, <span class='kw'>nogood</span> <span class='kw'>=</span> <span class='fu'><a href='https://www.rdocumentation.org/packages/base/topics/c'>c</a></span>(<span class='fl'>89</span>, <span class='fl'>84</span>, <span class='fl'>79</span>, <span class='fl'>76</span>, <span class='fl'>72</span>, <span class='fl'>69</span>, <span class='fl'>66</span>, <span class='fl'>62</span>, <span class='fl'>59</span>, <span class='fl'>56</span>, <span class='fl'>52</span>, <span class='fl'>49</span>),
-  <span class='kw'>fudge</span> <span class='kw'>=</span> <span class='fl'>0</span>)</pre>
+    <pre class="usage"><span class='fu'>makelegal</span>(<span class='no'>x</span>, <span class='kw'>nogood</span> <span class='kw'>=</span> <span class='kw pkg'>make.legal.grades</span><span class='kw ns'>::</span><span class='no'><a href='https://www.rdocumentation.org/packages/make.legal.grades/topics/grade_boundaries'>grade_boundaries</a></span>$<span class='no'>number_grade</span> -
+  <span class='fl'>1</span>, <span class='kw'>fudge</span> <span class='kw'>=</span> <span class='fl'>0</span>)</pre>
     
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">

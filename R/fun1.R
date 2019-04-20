@@ -1,6 +1,6 @@
 #' adjust grades to be "legal", not one short of a letter grade boundary
 #'
-#' Convert possibly decimal grades to integers not in a forbidden set, which can be specied by the user, with optional "fudge factor" (see Details)
+#' Convert possibly decimal grades to integers not in a forbidden set, which can be specified by the user, with optional "fudge factor" (see Details)
 #'
 #' Default `nogood` are grades one below a GPA boundary at University of Toronto. My standard practice is to say that anything
 #' that would round to one less than a grade boundary goes down to the next integer below (ie. 79.6 rounds up to 80, but 79.4
