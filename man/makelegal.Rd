@@ -4,8 +4,11 @@
 \alias{makelegal}
 \title{adjust grades to be "legal", not one short of a letter grade boundary}
 \usage{
-makelegal(x, nogood = make.legal.grades::grade_boundaries$number_grade -
-  1, fudge = 0)
+makelegal(
+  x,
+  nogood = make.legal.grades::grade_boundaries$number_grade - 1,
+  fudge = 0
+)
 }
 \arguments{
 \item{x}{vector of decimal grades (on scale to be reported)}

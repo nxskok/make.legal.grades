@@ -19,6 +19,6 @@
 #'
 #' @export
 makelegal=function(x, nogood=make.legal.grades::grade_boundaries$number_grade-1, fudge=0) {
-  z=round(x+fudge)
+  z=round(x+fudge+0.01) # make 0.5s round up
   ifelse(z %in% nogood, z-1, z)
 }
